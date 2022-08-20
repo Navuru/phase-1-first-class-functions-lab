@@ -24,16 +24,6 @@ function fareTripler (fare) {
 
 const driversArray = [returnFirstTwoDrivers,returnLastTwoDrivers] 
 
-// function selectDifferentDrivers (drivers,returnFirstTwoDrivers) {
-//     return (drivers.slice(0,2));
-
-
-// }
-
-// function selectDifferentDriversLast (drivers,returnLastTwoDrivers) {
-//     return (drivers.slice(2))
-// }
-
 function fetchSpecifiedDrivers(drivers,func){
     return func(drivers)
 }
